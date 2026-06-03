@@ -1,23 +1,51 @@
-# Project Cycle 2
+# README.md
 
-## Group Information
-- Group number: 13
-- Member names: 112370206 黃立帆、111370235 林家昕、113370231 王薪葳
+## 👥 Group Information
+* **Group Number:** Group 11
+* **Members & Contribution:**
+  * **林家昕** | ID: 111370235  
+    * *Contribution: 85%*
+    * *Responsibilities:* **Full Project Execution & Presentation Part I.** Responsible for the entire analytical pipeline, including data cleaning, recoding, exploratory data analysis (EDA), generating all core statistical plots, performing the Two-Proportion Z-Test, and phrasing the final academic conclusion. Solely responsible for writing the technical documentation (`README.md`), structuring and designing the entire layout of the one-page summary poster, and delivering the **background, data setup, and methodology sections** of the video presentation.
+  * **吳宗祐** | ID: 113370214  
+    * *Contribution: 15%*
+    * *Responsibilities:* **Presentation Part II.** Assisted in basic layout refinement of the one-page summary poster and responsible for delivering the **exploratory data analysis (all 3 plots and interpretations), statistical inference results, and the short final conclusion sections** of the video presentation.
 
-## Dataset
-- Dataset used: `YRBS_2007.csv`
+---
 
-## Selected Variables
-- Proportion analysis: `CurrentCigaretteUse`
-- Mean analysis: `HowTallAreYouWithoutShoesInMeters`
+## ❓ Selected Research Question
+Is the proportion of current cigarette use different between students who felt sad or hopeless and those who did not?
 
-## Benchmark Values
-- For `CurrentCigaretteUse`: p0 = 0.20
-- For `HowTallAreYouWithoutShoesInMeters`: μ0 = 1.70
+---
 
-## Research Questions
-1. Is the proportion of students who currently smoke different from 0.20?
-2. Is the mean height of students different from 1.70 meters?
+## 🔢 Group Variable and Response Variable
+* **Group Variable (Exposed vs. Comparison):**
+  * Original Variable: `SadOrHopeless` (Binary)
+  * Recoding Schema: $1.0 = \text{Exposed: Code 1 (Yes)}$, $2.0 \rightarrow 0 = \text{Comparison: Code 2 (No)}$
+* **Response Variable (Success vs. Failure):**
+  * Original Variable: `CurrentCigaretteUse` (Binary)
+  * Recoding Schema: $1.0 \rightarrow 0 = \text{Failure (Non-Smoker)}$, $\text{Codes 2-7} \rightarrow 1 = \text{Success (Smoker)}$
 
-## Short Final Conclusion
-- (請完成分析後填寫)
+---
+
+## 🧪 Method Used
+* **Statistical Method:** Two-Proportion Z-Test ($\alpha = 0.05$)
+* **Hypotheses:**
+  * Null Hypothesis ($H_0$): $p_1 - p_0 = 0$
+  * Alternative Hypothesis ($H_a$): $p_1 - p_0 \neq 0$
+* **Dataset:** 2007 Youth Risk Behavior Surveillance System (YRBSS) with a valid sample size of $N = 13,174$.
+* **Key Statistical Outputs:**
+  * $z\text{-statistic} = 15.05$
+  * $p\text{-value} = 3.267\text{e-}51$
+  * $95\% \text{ Confidence Interval (CI)} = [10.76\%, 12.09\%]$
+
+---
+
+## 📝 Short Final Conclusion
+The analysis demonstrates that adolescent students experiencing sadness or hopelessness exhibit an 11.43% higher smoking prevalence compared to those without such emotional distress. This confirms a strong statistically significant association, suggesting that negative emotional health may be a critical risk factor for adolescent cigarette use.
+---
+
+## 🎥 Video Presentation & Project Repository
+Our recorded video presentation, which covers the data visualization, statistical analysis, and final conclusions, as well as our complete code repository, can be accessed via the links below:
+
+* **Watch the Video Presentation:** []
+* **View the Source Code on GitHub:** []
