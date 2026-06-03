@@ -4,11 +4,9 @@
 * **Group Number:** Group 11
 * **Members & Contribution:**
   * **林家昕** | ID: 111370235  
-    * *Contribution: 85%*
     * *Responsibilities:* **Full Project Execution & Presentation Part I.** Responsible for the entire analytical pipeline, including data cleaning, recoding, exploratory data analysis (EDA), generating all core statistical plots, performing the Two-Proportion Z-Test, and phrasing the final academic conclusion. Solely responsible for writing the technical documentation (`README.md`), structuring and designing the entire layout of the one-page summary poster, and delivering the **background, data setup, and methodology sections** of the video presentation.
   * **吳宗祐** | ID: 113370214  
-    * *Contribution: 15%*
-    * *Responsibilities:* **Presentation Part II.** Assisted in basic layout refinement of the one-page summary poster and responsible for delivering the **exploratory data analysis (all 3 plots and interpretations), statistical inference results, and the short final conclusion sections** of the video presentation.
+    * *Responsibilities:* **Presentation Part II & Video Editing.** Assisted in basic layout refinement of the one-page summary poster and responsible for **compiling and editing the final video presentation**. Additionally, responsible for delivering the **exploratory data analysis (all 3 plots and interpretations), statistical inference results, and the short final conclusion sections** of the video presentation.
 
 ---
 
